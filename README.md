@@ -1,1 +1,1 @@
-# Homework03
+When the user needs a password, the user can choose the length of characters, lowercase, uppercase, numeric and/or special characters and generate a password. The password will be displayed in the HTML page. 
