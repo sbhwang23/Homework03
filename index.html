@@ -23,7 +23,7 @@
           aria-label="Generated Password"
         ></textarea>
       </div>
-        <form id="passwordGeneratorForm" class="form">
+        <form id="passwordGeneratorForm" class="form" >
 
             <label for="characterLength">Length of Password</label>
             <input type="number" min="8" max="128" value=8 id="characterLength">
@@ -43,7 +43,7 @@
         </form>
 
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button id="generate" onclick ="validation()" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
