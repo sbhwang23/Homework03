@@ -24,7 +24,6 @@ generate.addEventListener("click", function(e) {
 
     if(length < 8 || length > 128) {
       alert("Length must be between 8 and 128 characters")
-      end
     }
     if(lower===true){
       for(let i=lowerCharCode[0]; i<= lowerCharCode[1]; i++){
